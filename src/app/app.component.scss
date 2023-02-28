@@ -1,0 +1,47 @@
+#wrapper {
+    text-align: center;
+    color: white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+#shopping-list {
+    box-shadow: 20px 20px 0px #222f3e;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+form > input {
+    flex-grow: 1;
+    outline: none;
+
+    &:hover {
+        background: #f3f6f7;
+    }
+}
+
+ul {
+    list-style: none;
+    background: #1d98d1;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+li {
+    padding-bottom: 4px;
+}
+
+h2 {
+    background: #19d8a8;
+    padding: 10px 0px;
+    margin: 0px;
+}
